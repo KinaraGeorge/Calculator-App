@@ -12,7 +12,8 @@ This is a simple calculator application built using **React** and styled with **
 
 ## Screenshot
 
-![Calculator Screenshot](./image.png)
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/fa49524f-d26c-4c0c-aacf-f99dc2085540">
+
 
 ## Installation and Setup
 
