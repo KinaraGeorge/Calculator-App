@@ -1,8 +1,65 @@
-# React + Vite
+# React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple calculator application built using **React** and styled with **Tailwind CSS**. It supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division.
+- Real-time expression evaluation.
+- Clear input (C) and Clear entry (CE) functionalities.
+- Stylish and responsive design using Tailwind CSS.
+- Error handling for invalid expressions.
+
+## Screenshot
+
+![Calculator Screenshot](./image.png)
+
+## Installation and Setup
+
+Follow these steps to install and run the calculator app locally:
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js**: [Download Node.js](https://nodejs.org/) (v14+ recommended).
+- **npm**: Comes with Node.js. If you prefer **yarn**, you can install it globally using:
+
+    ```bash
+    npm install -g yarn
+    ```
+
+### Steps to Run
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone git@github.com:KinaraGeorge/Calculator-App.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd Calculator-App
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+   This will start the app on your local development server, and it will open in your default browser at `http://localhost:3000/`.
+
+### Build for Production
+
+To create an optimized build of the app for production, run:
+
+```bash
+npm run build
